@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Settings"
+        android:icon="@drawable/settings"
+        android:title="settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/Calculator"
+        android:icon="@drawable/calculator"
+        android:title="calculate"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/Calender"
+        android:icon="@drawable/calender"
+        android:title="calender"
+        app:showAsAction="ifRoom" />
+</menu>
